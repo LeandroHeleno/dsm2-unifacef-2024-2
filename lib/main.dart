@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-
+//Para a resolução da prova utilizei o site https://www.materialpalette.com/colors para descobrir a cor verde limão 300
+//Para os icones utilizei a cor color: Colors.white como parametro do icone
 void main() {
   runApp(const MyApp());
 }
@@ -68,7 +69,7 @@ class Layout extends StatelessWidget {
               child: Text(
                 '19/09/2024', // Data da prova
                 style: TextStyle(
-                  color: Colors.orange, // Laranja escuro
+                  color: Color(0xFFE6EE9C), // alterado para verde limão 300
                   fontSize: 24, // Tamanho de fonte
                 ),
                 textAlign: TextAlign.center, // Centralizado horizontalmente
